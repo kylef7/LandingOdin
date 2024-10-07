@@ -179,6 +179,7 @@ body {
     height: 150px;
     justify-content: space-around;
     align-items: center;
+    border-radius: 8px;
 }
 
 .ctaLeft {
@@ -203,9 +204,15 @@ body {
     font-size: 16px;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
 footer {
     background-color: #1F2937;
-    height: 75px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
